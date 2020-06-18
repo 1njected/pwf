@@ -1,0 +1,7 @@
+# whitelist ip contents:
+# NOTE: All IPs must be prefixed/suffixed with "/" as the rules
+#   will add in this character as a boundary to ensure
+#   the entire IP is matched.
+# SecAction "phase:1,id:170,pass,nolog,setvar:tx.remote_addr='/%{REMOTE_ADDR}/'"
+#/1.2.3.4/ 
+
